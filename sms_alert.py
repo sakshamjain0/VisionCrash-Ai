@@ -9,7 +9,7 @@ from twilio.rest import Client
 class Sms:
     def __init__(self, source):
         self.source = source
-        self.message = "This is a Message send from Vehicle Crash Detector System , An accident involving a Vehicle Crash was detected from the CCTV Footage,detailed information" \
+        self.message = "This is a Message sent from VisionCrash AI System, An accident involving a Vehicle Crash was detected from the CCTV Footage,detailed information" \
                        " including location and image of the incident is send as the mail for reference," \
                        " Please Send the Required Forces to the Location immediately."
         self.location = "Location not received yet"

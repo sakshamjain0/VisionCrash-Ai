@@ -25,7 +25,7 @@ class VcdUI:
     def __init__(self, root):
         self.root = root
         self.root.state('zoomed')
-        self.root.title("Vehicle Crash Detector")
+        self.root.title("VisionCrash AI")
         self.root.config(bg=BG_PRIMARY)
         self.title_bar_icon = PhotoImage(file=os.path.join(_BASE_DIR, "resources/icon/vehicle_crash_black.png"))
         self.root.iconphoto(False, self.title_bar_icon)
@@ -52,7 +52,7 @@ class VcdUI:
 
         self.brand_title = tk.Label(
             self.sidebar,
-            text="VEHICLE CRASH",
+            text="VISIONCRASH AI",
             bg=BG_PANEL,
             fg=TEXT_PRIMARY,
             font=('Bahnschrift SemiBold', 16)
@@ -124,7 +124,7 @@ class VcdUI:
 
         self.title_label = tk.Label(
             self.header_left,
-            text="Vehicle Crash Detector",
+            text="VisionCrash AI",
             bg=BG_SURFACE,
             font=('Bahnschrift SemiBold', 26),
             fg=TEXT_PRIMARY,
@@ -258,7 +258,7 @@ class VcdUI:
 
         # ── Project Title ──
         tk.Label(
-            frame, text="CrashGuard",
+            frame, text="VisionCrash AI",
             bg=BG_STAGE, fg=ACCENT_RED,
             font=('Bahnschrift SemiBold', 36)
         ).pack(pady=(0, 2))

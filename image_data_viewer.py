@@ -38,7 +38,7 @@ class ImageViewer:
     def __init__(self, root):
         self.root = root
         self.root.state("zoomed")
-        self.root.title("Vehicle Crash Detector - Records")
+        self.root.title("VisionCrash AI - Records")
         self.root.config(bg=BG_PRIMARY)
         self.root.protocol("WM_DELETE_WINDOW", self.on_close)
 
@@ -79,7 +79,7 @@ class ImageViewer:
 
         self.sidebar_title = tk.Label(
             self.sidebar,
-            text="VEHICLE CRASH",
+            text="VISIONCRASH AI",
             bg=BG_PANEL,
             fg=TEXT_PRIMARY,
             font=("Bahnschrift SemiBold", 16),

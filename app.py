@@ -148,9 +148,9 @@ def analyze_video(video_path, score_thresh, send_alerts):
 
 examples = [[SAMPLE_VIDEO, 0.90, False]] if os.path.exists(SAMPLE_VIDEO) else None
 
-with gr.Blocks(title="Vehicle Crash Detector") as demo:
+with gr.Blocks(title="VisionCrash AI") as demo:
     gr.Markdown(
-        "# Vehicle Crash Detector\n"
+        "# VisionCrash AI\n"
         "Upload a traffic/CCTV video to detect vehicle crashes using the trained TensorFlow Object Detection model."
     )
     with gr.Row():
