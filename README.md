@@ -2,6 +2,10 @@
 
 **VisionCrash AI** is an automated vehicle crash detection system for traffic and CCTV video feeds, powered by a trained **TensorFlow Object Detection** `SavedModel`. It includes both a **Gradio web interface** for cloud/browser deployment and a **Tkinter desktop application** with an incident records viewer, along with automated **Email** and **SMS** emergency alerts.
 
+## About
+
+Road traffic accidents often suffer from delayed emergency response when incidents go unnoticed on surveillance feeds. **VisionCrash AI** automates crash monitoring by running frame-by-frame object detection on CCTV/traffic videos to flag collisions in real time, capture annotated incident frames, log detection history, and dispatch instant Email and SMS alerts to emergency services (Hospital, Police, and RTO).
+
 ---
 
 ## Features
